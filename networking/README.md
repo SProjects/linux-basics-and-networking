@@ -53,7 +53,7 @@ This contains a list of questions to assess a fellows knowledge of the **Network
 7. Using `ssh`, connect to remote machine **10.0.0.1** with the private key `private.key.pem`
 
 	```
-	ssh -i ~/.ssh/provate.key.pem user@10.0.0.1
+	ssh -i ~/.ssh/private.key.pem user@10.0.0.1
 	```
 
 8. Using `scp`, copy file `/home/user/file.txt` on remote machine **10.0.0.1** to your local machine
@@ -81,4 +81,14 @@ This contains a list of questions to assess a fellows knowledge of the **Network
 	```
 
 12. List differences between IPV4 & IPV6 addresses
+
+	```
+	1. An IPv6 address consists of 128 bits, while an IPv4 address consists of only 32.
+	2. IPv6 has a lot more usable addresses compared to IPv4.
+	3. IPv6 makes the router’s task more simple compared to IPv4.
+	4. IPv6 is better suited to mobile networks than IPv4.
+	5. IPv6 addresses are represented in a hexadecimal, colon-separated notation, while IPv4 address use the dot-decimal notation.
+	6. IPv6 allows for bigger payloads than what is allowed in IPv4.
+	7. IPv6 is used by less than 1% of the networks, while IPv4 is still in use by the remaining 99%.
+	```
 
